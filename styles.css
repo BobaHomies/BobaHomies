@@ -170,7 +170,7 @@ h2 {
 .menu-image {
   width: 100%;
   max-width: 1000px;
-  margin: 0 auto 3rem;
+  margin: 0 auto;
   display: block;
   border-radius: 12px;
   box-shadow: 0 4px 12px rgba(0,0,0,0.1);
