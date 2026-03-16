@@ -53,7 +53,7 @@
     <div class="container">
         <h2>Our Menu</h2>
       <a href="images/Menu.PNG" target="_blank">
-        <img class="menu-image" src="images/Menu.PNG" alt="Boba Menu">
+        <img class="menu-image" src="images/Menu.PNG" alt="Boba Menu" onclick="openMenu()">
       </a>
       </div>
   </section>
@@ -120,5 +120,20 @@
     <p>© 2025 Boba Homies. Crafted with care ☕🧋</p>
   </footer>
 
+  <!-- Menu Popup -->
+<div id="menuPopup" class="menu-popup" onclick="closeMenu()">
+  <img src="images/Menu.PNG" class="menu-popup-img">
+</div>
+  
+  <script>
+function openMenu() {
+  document.getElementById("menuPopup").style.display = "flex";
+}
+
+function closeMenu() {
+  document.getElementById("menuPopup").style.display = "none";
+}
+</script>
+  
 </body>
 </html>
