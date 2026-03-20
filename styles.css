@@ -198,6 +198,15 @@ h2 {
   border-radius: 10px;
 }
 
+.close-btn {
+  position: absolute;
+  top: 20px;
+  right: 30px;
+  font-size: 2rem;
+  color: white;
+  cursor: pointer;
+}
+
 /* Contact */
 .contact p {
   margin: 0.5rem 0;
