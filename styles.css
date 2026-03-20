@@ -12,6 +12,10 @@ body {
   line-height: 1.6;
 }
 
+html {
+  scroll-behavior: smooth;
+}
+
 /* Navbar */
 .navbar {
   background-color: #fdfaf7;
@@ -107,6 +111,7 @@ body {
 /* Sections */
 section {
   padding: 3rem 2rem;
+  scroll-margin-top: 80px;
 }
 
 .container {
